@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Tag Demo</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="HTML Tag Demonstration">
+</head>
+
+<body>
+
+  <header>
+    <h1>HTML Tag Demonstration</h1>
+    <nav>
+      <ul>
+        <li><a href="#section1">Basic Tags</a></li>
+        <li><a href="#section2">Lists and Tables</a></li>
+        <li><a href="#section3">Media and Forms</a></li>
+        <li><a href="#section4">Advanced Tags</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="section1">
+      <h2>Basic Tags</h2>
+      <p>This is a <strong>strong</strong> and <em>emphasized</em> sentence.</p>
+      <p>A short quote: <q>Learning HTML is fun!</q></p>
+      <blockquote>This is a blockquote example.</blockquote>
+      <p><cite>Source: Web Development Guide</cite></p>
+      <p><mark>Highlighted text</mark> for reference.</p>
+      <p>A definition term: <dfn>HTML</dfn>.</p>
+      <p>Example of <abbr title="HyperText Markup Language">HTML</abbr>.</p>
+      <bdi>Right-to-left isolated text: <bdo dir="rtl">Hello!</bdo></bdi>
+      <br>
+      <p><samp>Sample output: command executed</samp></p>
+      <p><kbd>Keyboard input: Press Ctrl + C</kbd></p>
+    </section>
+
+    <section id="section2">
+      <h2>Lists and Tables</h2>
+      <ul>
+        <li>Unordered list item 1</li>
+        <li>Unordered list item 2</li>
+      </ul>
+
+      <ol>
+        <li>Ordered list item 1</li>
+        <li>Ordered list item 2</li>
+      </ol>
+
+      <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+      </dl>
+
+      <table>
+        <caption>Example Table</caption>
+        <colgroup>
+          <col style="background-color: #f0f0f0">
+          <col style="background-color: #e0e0e0">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="section3">
+      <h2>Media and Forms</h2>
+      <img src="example.jpg" alt="Example Image">
+
+      <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+      </audio>
+
+      <video controls width="300">
+        <source src="video.mp4" type="video/mp4">
+      </video>
+
+      <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <textarea rows="4" cols="50">Write here...</textarea>
+        <label for="options">Choose an option:</label>
+        <select id="options">
+          <optgroup label="Group 1">
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+          </optgroup>
+        </select>
+        <progress value="70" max="100"></progress>
+        <meter value="3" min="0" max="5"></meter>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+
+    <section id="section4">
+      <h2>Advanced Tags</h2>
+      <figure>
+        <img src="" alt="Figure">
+        <figcaption>Figure Caption</figcaption>
+      </figure>
+
+      <details>
+        <summary>More details</summary>
+        <p>This is hidden content revealed on click.</p>
+      </details>
+
+      <iframe src="http://127.0.0.1:5500/tag.html?name=#" width="300" height="200"></iframe>
+
+      <output id="output">Calculated Output</output>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 HTML Tag Demo</p>
+  </footer>
+
+</body>
+
+</html>
